@@ -1,0 +1,77 @@
+:root {
+  --Slate-900: #1f314f;
+  --Slate-500: #68778d;
+  --Slate-300: #d5e1ef;
+  --White: #ffffff;
+
+  --spacing-500: 4rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
+
+  --border-radius: 2rem;
+
+  --fs-body: 1.5rem;
+  --fs-h1: 2.2rem;
+
+  --letter-spacing-body: 0.2px;
+
+  --line-height-body: 140%;
+  --line-height-heading: 120%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--fs-body);
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--Slate-300);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  max-width: 32rem;
+  min-height: 49.9rem;
+  width: 90%;
+  background-color: var(--White);
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500)
+    var(--spacing-200);
+  border-radius: var(--border-radius);
+}
+
+.qr-code-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing-300);
+}
+
+.qr-code-image {
+  width: 100%;
+  height: 100%;
+}
+
+.qr-text-content h1 {
+  font-weight: bold;
+  line-height: var(--line-height-heading);
+  font-size: var(--fs-h1);
+  margin-bottom: 1.6rem;
+  color: var(--Slate-900);
+}
+
+.qr-text-content p {
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
+  color: var(--Slate-500);
+}
