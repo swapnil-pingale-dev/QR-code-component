@@ -48,7 +48,7 @@ main {
   padding: var(--spacing-200) var(--spacing-200) var(--spacing-500)
     var(--spacing-200);
   border-radius: var(--border-radius);
-  box-shadow: 0 var(--spacing-300) var(--spacing-300) rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.1);
 }
 
 .qr-code-card {
